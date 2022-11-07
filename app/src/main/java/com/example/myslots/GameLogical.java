@@ -25,24 +25,34 @@ public class GameLogical {
         switch (hand) {
             case 0:
                 return "Bust ";
+                break;
             case 1:
                 return "Pair ";
+                break;
             case 2:
                 return "Two Pair ";
+                break;
             case 3:
                 return "3 of a Kind ";
+                break;
             case 4:
                 return "Straight ";
+                break;
             case 5:
                 return "Flush ";
+                break;
             case 6:
                 return "Full House ";
+                break;
             case 7:
                 return "4 of a Kind ";
+                break;
             case 8:
                 return "Straight Flush ";
+                break;
             case 9:
                 return "Royal Flush ";
+                break;
             default:
                 return "Error ";
         }
